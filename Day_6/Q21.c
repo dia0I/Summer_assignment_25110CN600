@@ -1,3 +1,4 @@
+//Decimal to binary
 #include<stdio.h>
 int main(){
     int num,n,rem,i=0,arr[32];
@@ -13,7 +14,7 @@ int main(){
         i++;
         n = n/2;
     }
-    
+
     printf("%d in binary :\n",num);
     for(int j=i-1;j>=0;j--)
     {

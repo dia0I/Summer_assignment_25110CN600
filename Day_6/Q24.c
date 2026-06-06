@@ -1,3 +1,4 @@
+//To calc x^n without using pow()
 #include<stdio.h>
 int main(){
     int x,n,prod=1;
