@@ -1,7 +1,8 @@
+// Print reversed array
 #include<stdio.h>
 
 int main(){
-    int size;
+    int size,j=0;
     printf("Enter size of array: ");
     scanf("%d",&size);
     int arr[size];
@@ -12,10 +13,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    printf("Reversed Array:\n");
+    int a[size];
     for(int i=size-1; i>=0; i--)
     {
-        printf("%d ", arr[i]);
+        a[j] = arr[i];
+        j++;
+    }
+    
+    printf("Reversed array: \n");
+    for(int i=0; i<size; i++)
+    {
+        printf("%d ",a[i]);
     }
     return 0;
 }
