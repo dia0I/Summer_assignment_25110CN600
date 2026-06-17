@@ -1,3 +1,4 @@
+// find pair with required sum
 #include<stdio.h>
 
 int main(){

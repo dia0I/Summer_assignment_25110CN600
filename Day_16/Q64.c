@@ -1,3 +1,4 @@
+// remove duplicate elements from array
 #include <stdio.h>
 
 int main() {
@@ -34,20 +35,6 @@ int main() {
             j++;
         }
             
-        
-        /*for(int j=i+1; j<size; j++)
-        {
-            if(arr[i]==arr[j])
-            {
-                count++;
-            }
-        }
-
-        if(count==0)
-        {
-            a[j]=arr[i];
-            j++;
-        }*/
     }
     printf("Modified array without duplicates: ");
     for(int i=0; i<j; i++)

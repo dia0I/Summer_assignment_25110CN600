@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// element with max frequency
 #include <stdio.h>
 
 int main() {
