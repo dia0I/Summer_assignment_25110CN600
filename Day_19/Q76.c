@@ -1,4 +1,4 @@
-// Sum of diagonal elements
+// Program to find sum of diagonal elements
 #include <stdio.h>
 
 int main()
