@@ -9,21 +9,21 @@ int main()
     int mat[r][c];
 
     printf("Enter elements:");
-    for (int i = 1; i <= r; i++)
+    for (int i = 0; i < r; i++)
     {
-        for (int j = 1; j <= c; j++)
+        for (int j = 0; j < c; j++)
         {
             scanf("%d", &mat[i][j]);
         }
     }
 
-    for (i = 1; i <= c; i++)
+    for (i = 0; i < c; i++)
     {
         int col_sum = 0;
-        for (j = 1; j <= r; j++)
+        for (j = 0; j < r; j++)
         {
             col_sum += mat[j][i];
         }
-        printf("col %d sum: %d\n", i, col_sum);
+        printf("col %d sum: %d\n", i + 1, col_sum);
     }
 }
